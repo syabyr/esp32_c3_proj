@@ -841,12 +841,6 @@ Text GLabel 1850 3650 0    50   Input ~ 0
 U0RXD
 Text GLabel 1850 3750 0    50   Input ~ 0
 U0TXD
-Wire Wire Line
-	10100 850  9600 850 
-Wire Wire Line
-	7750 850  7750 1300
-Wire Wire Line
-	10100 850  10100 1300
 $Comp
 L mybays_module:ESP32-C3-MINI-1 U1
 U 1 1 608BFFD7
@@ -859,68 +853,9 @@ F 3 "" H 9000 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8400 900  8400 850 
-Connection ~ 8400 850 
+	10100 850  7750 850 
 Wire Wire Line
-	8400 850  7750 850 
+	7750 850  7750 1300
 Wire Wire Line
-	8500 900  8500 850 
-Connection ~ 8500 850 
-Wire Wire Line
-	8500 850  8400 850 
-Wire Wire Line
-	8600 900  8600 850 
-Connection ~ 8600 850 
-Wire Wire Line
-	8600 850  8500 850 
-Wire Wire Line
-	8700 900  8700 850 
-Connection ~ 8700 850 
-Wire Wire Line
-	8700 850  8600 850 
-Wire Wire Line
-	8800 900  8800 850 
-Connection ~ 8800 850 
-Wire Wire Line
-	8800 850  8700 850 
-Wire Wire Line
-	8900 900  8900 850 
-Connection ~ 8900 850 
-Wire Wire Line
-	8900 850  8800 850 
-Wire Wire Line
-	9000 900  9000 850 
-Connection ~ 9000 850 
-Wire Wire Line
-	9000 850  8900 850 
-Wire Wire Line
-	9100 900  9100 850 
-Connection ~ 9100 850 
-Wire Wire Line
-	9100 850  9000 850 
-Wire Wire Line
-	9200 900  9200 850 
-Connection ~ 9200 850 
-Wire Wire Line
-	9200 850  9100 850 
-Wire Wire Line
-	9300 850  9300 900 
-Connection ~ 9300 850 
-Wire Wire Line
-	9300 850  9200 850 
-Wire Wire Line
-	9400 900  9400 850 
-Connection ~ 9400 850 
-Wire Wire Line
-	9400 850  9300 850 
-Wire Wire Line
-	9500 900  9500 850 
-Connection ~ 9500 850 
-Wire Wire Line
-	9500 850  9400 850 
-Wire Wire Line
-	9600 900  9600 850 
-Connection ~ 9600 850 
-Wire Wire Line
-	9600 850  9500 850 
+	10100 850  10100 1300
 $EndSCHEMATC
